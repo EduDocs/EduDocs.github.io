@@ -56,7 +56,7 @@ Tutorials still serve the original purpose of being a comprehensive writing exer
 
 # EduDocs.github.io
 
-## Updating and Publishing the EduDocs Web Page
+## Updating and Publishing
 
 The EduDocs web page is generated using the automatic GitHub generator.
 The source file is a subset of this README.md file, and it is authored using GitHub Flavored Markdown.
