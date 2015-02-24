@@ -29,7 +29,7 @@ At this point, it may be useful to differentiate the aforementioned tools from w
 By nature, wikis typically lead to mosaics of information snippets; whereas versioning systems, although technologically more involved, are proper vehicles for concerted efforts with established goals.
 In other words, the former favors concurrent, yet compartmentalized authorship; whereas the latter enables true collaborative authorship.
 
-A prime example of a software versioning and revision control system is [Git](http://git-scm.com/), which is a distributed version control system designed.
+A prime example of a software versioning and revision control system is [Git](http://git-scm.com/), which is a distributed version control system.
 This software platform is free and open source, and it features a rich community of users and contributors.
 In addition, [GitHub](https://github.com/) is a web-based hosting service for source code management; it is built on the Git revision control system and offers free accounts for open source projects.
 It offers a rich set of features, yet simplicity is one of its main attributes.
