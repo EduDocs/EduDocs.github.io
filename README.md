@@ -56,44 +56,23 @@ Tutorials still serve the original purpose of being a comprehensive writing exer
 
 # EduDocs.github.io
 
-From a user perspective and after initialization, the basic work cycle under Git amount to the following steps.
+## Updating and Publishing the EduDocs Web Page
 
-* Clone: Use to instantiate a working copy of the master repository. This is usually the first command employed to establish a local working hierarchy under this paradigm.
-* Fetch: The command imports changes on the remote server to the local working repository. Before editing a project, it is typically advisable to synchronize the working copy with the latest version of the file hierarchy available on the server.
-* Edit source files: This is perhaps the most natural part of the cycle. Modify files, documents and folder as need, irrespective of the collaborative infrastructure.
-Review changes: Before sharing documents, one can quickly view a summary of the changes that were made through .
-* Fix mistakes: This is a good time to fix typos and mistakes. Sometimes, when things go wrong, the simplest option is to revert back to older versions of the files. This is easy to do through Git.
-* Resolve conflicts: In some cases, someone else may have been working on the same project at the same time. As such, it is always safe to check if a new version of the project has been published on the server before committing your own work. Git offers several tools to identify potential editing conflicts and resolved such issues.
-* Pull: The command fetches and merges changes on the remote server to the local working repository. Before editing a project, it is typically advisable to synchronize the working copy with the latest version of the file hierarchy available on the server.
-* Add: The add command is used to add one or more files to staging. Only add pertinent files to the repository.
-* Commit changes:
-* Push: The last step of the cycle is to publish your work on GitHub and share the latest version with collaborators. Your changes will be integrated in the master repository and others can now see your contribution.
+The EduDocs web page is generated using the automatic GitHub generator.
+The source file is a subset of this README.md file, and it is authored using GitHub Flavored Markdown.
+As such, modifications should simply be committed to this README.md page.
+The web page can be updated by successively clicking __Settings__, __Automatic page generator__, __Load README.md__ (and edit), __Continue to layouts__, and __Publish Page__.
 
-
-
-### Welcome to GitHub Pages.
-
-
-
-
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:
-
-```
-$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-```
-
-If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.
 
 ### Designer Templates
-We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.
 
-### Rather Drive Stick?
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+The template currently used for EduDocs is __Slate__.
+After publishing a page, one can revisit the page generator and switch to another theme.
+The page content will be preserved if it remained markdown format.
+
 
 ### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
 
-### Support or Contact
-Having trouble with Pages? Check out the documentation at https://help.github.com/pages or contact support@github.com and we’ll help you sort it out.
+One can @mention a GitHub username to generate a link to their profile.
+The resulting `<a>` element will link to the contributor's GitHub Profile.
+
