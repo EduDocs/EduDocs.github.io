@@ -58,21 +58,18 @@ Tutorials still serve the original purpose of being a comprehensive writing exer
 
 ## Updating and Publishing
 
-The EduDocs web page is generated using the automatic GitHub generator.
+This web page is generated using the automatic GitHub generator.
 The source file is a subset of this README.md file, and it is authored using GitHub Flavored Markdown.
 As such, modifications should simply be committed to this README.md page.
 The web page can be updated by successively clicking __Settings__, __Automatic page generator__, __Load README.md__ (and edit), __Continue to layouts__, and __Publish Page__.
 
-
 ### Designer Templates
 
-The template currently used for EduDocs is __Slate__.
+The template currently used for this site is __Slate__.
 After publishing a page, one can revisit the page generator and switch to another theme.
 The page content will be preserved if it remained markdown format.
-
 
 ### Authors and Contributors
 
 One can @mention a GitHub username to generate a link to their profile.
 The resulting `<a>` element will link to the contributor's GitHub Profile.
-
