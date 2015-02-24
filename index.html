@@ -50,7 +50,7 @@ The present initiative looks at alternative means of creating pedagogical value 
 It discusses collaborative strategies and technologies that can help improve engineering education through incremental, concerted steps.</p>
 
 <h2>
-<a id="collaborative-authorship-with-version-control" class="anchor" href="#collaborative-authorship-with-version-control" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaborative Authorship with Version Control</h2>
+<a id="collaborative-authorship" class="anchor" href="#collaborative-authorship" aria-hidden="true"><span class="octicon octicon-link"></span></a>Collaborative Authorship</h2>
 
 <p>Computer programmers and software engineers have developed a number of packages for source and revision control.
 Although originally aimed at the creation of large software applications, these accessible tools can be employed to generate a plethora of educational documents, from curriculums to notes and questions.
@@ -67,6 +67,55 @@ Subversion is a centralized version control system, with a single server hosting
 It offers a rich set of features, yet simplicity is one of its main attributes.
 Authors and software developers regularly employ Git to maintain current and historical versions of files such as source code, web pages, and documentation.
 Some of our course notes are actively being developed as collaborative project under Git and GitHub.</p>
+
+<p>A powerful aspect of version control is that it enables multiple contributors to work on various parts of a project simultaneously, even in a geographically distributed setting.
+Git keeps track of modifications and allows for the (mostly) seamless integration of valuable work.
+From a user perspective and after initialization, the basic work cycle under Git amount to the following steps.</p>
+
+<ul>
+<li>
+<strong>Clone:</strong> Use  to instantiate a working copy of the master repository.
+This is usually the first command employed to establish a local working hierarchy under this paradigm.</li>
+<li>
+<strong>Fetch:</strong>
+The  command imports changes on the remote server to the local working repository.
+Before editing a project, it is typically advisable to synchronize the working copy with the latest version of the file hierarchy available on the server.</li>
+<li>
+<strong>Edit</strong> source files:
+This is perhaps the most natural part of the cycle.
+Modify files, documents and folder as need, irrespective of the collaborative infrastructure.</li>
+<li>
+<strong>Review</strong> changes:
+Before sharing documents, one can quickly view a summary of the changes that were made through .</li>
+<li>
+<strong>Fix</strong> mistakes:
+This is a good time to fix typos and mistakes.
+Sometimes, when things go wrong, the simplest option is to revert back to older versions of the files.
+This is easy to do through Git.</li>
+<li>
+<strong>Resolve</strong> conflicts:
+In some cases, someone else may have been working on the same project at the same time.
+As such, it is always safe to check if a new version of the project has been published on the server before committing your own work.
+Git offers several tools to identify potential editing conflicts and resolved such issues.</li>
+<li>
+<strong>Pull:</strong>
+The  command fetches and merges changes on the remote server to the local working repository.
+Before editing a project, it is typically advisable to synchronize the working copy with the latest version of the file hierarchy available on the server.</li>
+<li>
+<strong>Add:</strong>
+The add command is used to add one or more files to staging.
+Only add pertinent files to the repository.</li>
+<li>
+<strong>Commit</strong> changes:</li>
+<li>
+<strong>Push:</strong>
+The last step of the cycle is to publish your work on GitHub and share the latest version with collaborators.
+Your changes will be integrated in the master repository and others can now see your contribution.</li>
+</ul>
+
+<p>Under GitHub, the Git editing cycle is actually very accessible.
+This requires an eventual contributor to learn the technology, yet the rewards are many.
+In particular, this is one possible way to improve educational documents through incremental, concerted steps.</p>
 
 <h2>
 <a id="the-alignment-of-deliverables-and-valuables" class="anchor" href="#the-alignment-of-deliverables-and-valuables" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Alignment of Deliverables and Valuables</h2>
